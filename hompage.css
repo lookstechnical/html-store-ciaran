@@ -1,0 +1,145 @@
+body {
+    margin:0;
+    padding:0;
+}
+
+header {
+    text-align: center;
+    padding-top:10px;
+}
+
+nav.navigation {
+    text-align: right;
+    margin-bottom: 8px;
+    padding-right: 18px;
+}
+
+nav a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    text-transform: capitalize;
+    color: darkblue;
+    font-family: sans-serif;
+}
+
+nav.navigation a:hover {
+    background: darkblue;
+    color: white;
+}
+
+.slider {
+    width: 100vw;
+    overflow: hidden;
+    text-align: center;
+}
+
+.slider img {
+    width: 100%;
+}
+
+.products {
+    width: 100vw;
+    overflow:hidden;
+}
+
+.products h3 {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 26px;
+}
+
+.products ul {
+    list-style: none;
+    display: flex;
+    margin:0;
+    padding:0;
+    padding:0px 8px;
+}
+
+.products ul li {
+    list-style: none;
+    width: 25%;
+}
+
+.products ul li article {
+    padding: 16px;
+    height: 250px;
+    overflow: hidden;
+    margin-bottom:18px;
+}
+
+.products ul li article img {
+    width:100%;
+}
+
+
+.featured {
+    width: 100vw;
+    overflow:hidden;
+    margin-bottom:18px;
+}
+
+.featured h3 {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 24px;
+}
+
+.featured ul {
+    list-style: none;
+    display: flex;
+    margin:0;
+    padding:0;
+    padding:0px 8px;
+}
+
+.featured ul li {
+    list-style: none;
+    width: 33.3%;
+}
+
+.featured ul li article {
+    padding: 16px;
+    height: 250px;
+    overflow: hidden;
+    margin-bottom:18px;
+    position: relative;
+
+}
+
+.featured ul li article img {
+    width:100%;
+}
+
+.featured ul li article h4 {
+    position: absolute;
+    width:100%;
+    font-size: 28px;
+    color:white;
+    font-family: sans-serif;
+    top: 40%;
+    text-align: center;
+    text-shadow: black 0px 0px 15px;
+}
+
+
+footer {
+    background: #efefef;
+    padding:32px;
+}
+
+footer nav {
+    text-align: left;
+    width:25%;
+}
+
+footer nav a {
+    display: block;
+    padding:5px 0px;
+    margin:0px;
+}
+
+footer nav a:hover {
+    color: #000;
+}
