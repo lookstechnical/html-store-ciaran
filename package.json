@@ -1,0 +1,11 @@
+{
+  "name": "store",
+  "version": "1.0.0",
+  "description": "A basic store theme",
+  "main": "src/index.html",
+  "author": "Richard Ellis <info@lookstechnical.co.uk>",
+  "license": "MIT",
+  "dependencies": {
+    "serve": "^10.0.1"
+  }
+}
