@@ -1,0 +1,53 @@
+body {
+    margin:0;
+    padding:0;
+}
+
+header {
+    text-align: center;
+    padding-top:10px;
+}
+
+nav.navigation {
+    text-align: right;
+    margin-bottom: 8px;
+    padding-right: 18px;
+}
+
+nav a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    text-transform: capitalize;
+    color: darkblue;
+    font-family: sans-serif;
+}
+
+nav.navigation a:hover {
+    background: darkblue;
+    color: white;
+}
+
+
+
+
+
+footer {
+    background: #efefef;
+    padding:32px;
+}
+
+footer nav {
+    text-align: left;
+    width:25%;
+}
+
+footer nav a {
+    display: block;
+    padding:5px 0px;
+    margin:0px;
+}
+
+footer nav a:hover {
+    color: #000;
+}

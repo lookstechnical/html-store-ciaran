@@ -6,6 +6,9 @@
   "author": "Richard Ellis <info@lookstechnical.co.uk>",
   "license": "MIT",
   "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^4.0.1",
+    "gulp-server-livereload": "^1.9.2",
     "serve": "^10.0.1"
   }
 }
